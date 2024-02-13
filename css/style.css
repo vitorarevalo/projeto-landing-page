@@ -120,6 +120,9 @@ nav h1{
 
 }
 
+menu{
+    display: none;
+}
 
 nav a{
     color: white;

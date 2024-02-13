@@ -88,12 +88,11 @@
     menu{
         position: absolute;
         display: none;
-        
+        transition: 0.5s;
     }
 
 
     #home{
-        background-color: rgb(26, 26, 26);
         border-left: 1px solid white;
         border-top: 1px solid white;
         border-right: 1px solid white;
@@ -101,7 +100,6 @@
     }
 
     #cur{
-        background-color: rgb(26, 26, 26);
         border-left: 1px solid white;
         border-right: 1px solid white;
 
@@ -109,7 +107,6 @@
     }
 
     #ent{
-        background-color: rgb(26, 26, 26);
         border-left: 1px solid white;
         border-right: 1px solid white;
 
@@ -136,17 +133,16 @@
     }
 
 
-
-
+    
     .opcao:hover{
         cursor: pointer;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(66, 66, 66);
         transition: 0.3s;
     }
 
     menu ul li{
         display: block;
-        padding: 10px;
+        padding: 20px;
         text-decoration: none;
         text-align: center;
         background-color: rgb(26, 26, 26);
@@ -156,10 +152,10 @@
     }
 
 
-    
 
 
     #cadastrar:hover{
+        cursor: pointer;
         background-color: var(--cor00);
     }
 
