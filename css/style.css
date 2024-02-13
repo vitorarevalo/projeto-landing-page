@@ -32,6 +32,9 @@ body{
 
 }
 
+menu{
+    display: none;
+}
 
 nav{
     display: flex;

@@ -1,6 +1,17 @@
 @charset "UTF-8";
 @media screen and (min-width: 0px) and (max-width: 768px){
-    
+    :root{
+        --cor00: #780ecf;
+        --cor01: #500191;
+        --cor02: #0C011A;
+        --cor03: #F71735;
+        --cor04: #41EAD4;
+        --cor05: #FDFFFC;
+        --font01: 'Anek Devanagari', sans-serif;
+        --font02: 'Roboto', sans-serif;
+    }
+
+
     body{
         background: url(../imagens/Background-Mobile.jpg) no-repeat center center fixed;
         background-size: cover;
@@ -19,8 +30,12 @@
         margin: 0px;
         align-items: center;
         gap: 28%;
+        margin-top: 7px;
+        width: 100%;
 
     }
+
+    
 
     #fog{
         width: 40px;
@@ -37,6 +52,58 @@
         display: block;
         font-size: 4em;
     }
+
+
+
+    menu{
+        position: absolute;
+        display: block;
+        background-color: rgb(26, 26, 26);
+        align-self: flex-end;
+        border: 1px solid white;
+        width: 30%;
+        color: white;
+    }
+
+    menu a{
+        color: white;
+        text-decoration: none;
+    }
+
+    menu ul{
+        list-style-type: none;
+    }
+
+
+    menu ul li:hover{
+        cursor: pointer;
+        background-color: rgb(58, 58, 58);
+        transition: 0.3s;
+    }
+
+    menu ul li{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        background-color: rgb(26, 26, 26);
+        color: white;
+        border-bottom: 2px solid gray;
+        transition: 0.3s;
+    }
+
+
+    #cadastrar{
+        background-color: var(--cor01);
+        border-bottom: none;
+    }
+
+
+    #cadastrar:hover{
+        background-color: var(--cor00);
+    }
+
+
 
     main{
         display: flex;
