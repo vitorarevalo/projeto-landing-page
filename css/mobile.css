@@ -26,7 +26,7 @@
 
     nav{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin: 0px;
         align-items: center;
         gap: 28%;
@@ -48,22 +48,44 @@
         font-size: 1.3em;
     }
 
+
+    #primeiro{
+        margin-right: 10px;
+    }
+
     #burguer{
         display: block;
-        font-size: 4em;
+        margin-left: 10px;
+        font-size: 3em;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    #burguer:hover{
+        cursor: pointer;
+        color: #dfdfdf;
+        transition: 0.5s;
+    }
+
+    #close{
+        display: none;
+        font-size: 3em;
     }
 
 
 
     menu{
         position: absolute;
-        display: block;
+        display: none;
         background-color: rgb(26, 26, 26);
         align-self: flex-end;
         border: 1px solid white;
-        width: 30%;
+        width: 45%;
+        margin-left: 10px;
         color: white;
     }
+
+    
 
     menu a{
         color: white;
