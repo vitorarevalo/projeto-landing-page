@@ -38,8 +38,6 @@ nav{
     margin-top: 7px;
     width: 100%;
     justify-content: space-around;
-
-
 }
 
 
@@ -183,4 +181,10 @@ main a{
     color: white;
     display: inline-block;
     text-decoration: none;
+}
+
+
+
+#burguer{
+    display: none;
 }
