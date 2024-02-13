@@ -16,9 +16,21 @@
     nav{
         display: flex;
         justify-content: space-evenly;
+        margin: 0px;
         align-items: center;
-        gap: 30%;
+        gap: 28%;
 
+    }
+
+    #fog{
+        width: 40px;
+        transition: 0.5s;
+    }
+    
+    
+    nav h1{
+        font-weight: 300;
+        font-size: 1.3em;
     }
 
     #burguer{
