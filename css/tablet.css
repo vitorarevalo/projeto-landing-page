@@ -2,6 +2,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     *{
         margin: 0px;
+        padding: 0px;
     }
     
     :root{
