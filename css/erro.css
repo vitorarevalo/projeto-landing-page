@@ -16,6 +16,12 @@
     padding: 0px;
 }
 
+html{
+    height: 100%;
+}
+
+
+
 body{
     background: black url(../imagens/Background-404.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -23,19 +29,33 @@ body{
 
 
 
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    text-align: center;
+    float: right;
+    margin-right: 15%;
+}
 
 
 
 h1{
     font-family: var(--fonte01);
     color: white;
+    font-size: 10em;
 }
 
 
 #titulo p{
     font-family: var(--fonte00);
-    color: var(--cor01)
+    color: var(--cor01);
+    font-size: 2em;
 }
+
 
 
 
@@ -46,6 +66,14 @@ h1{
 
 
 #texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--cor02);
+    text-align: center;
     color: white;
     font-family: var(--fonte00);
 }
