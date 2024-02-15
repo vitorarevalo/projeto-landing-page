@@ -1,2 +1,51 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
+:root{
+    --cor01: #D52CFF;
+    --cor02: #500191;
+    --fonte00: 'Roboto', sans-serif;
+    --fonte01: 'Akshar', sans-serif;
+    --fonte02: 'RocknRoll', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black url(../imagens/Background-404.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+
+
+
+
+h1{
+    font-family: var(--fonte01);
+    color: white;
+}
+
+
+#titulo p{
+    font-family: var(--fonte00);
+    color: var(--cor01)
+}
+
+
+
+#cont p{
+    font-family: var(--fonte00);
+    color: white;
+}
+
+
+#texto{
+    color: white;
+    font-family: var(--fonte00);
+}
