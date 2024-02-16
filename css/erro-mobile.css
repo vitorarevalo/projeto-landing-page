@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@media screen and (min-width: 0px) and (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700& display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&    display=swap');
+
+:root{
+    --cor01: #D52CFF;
+    --cor02: #500191;
+    --fonte00: 'Roboto', sans-serif;
+    --fonte01: 'Akshar', sans-serif;
+    --fonte02: 'RocknRoll', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100%;
+}
+
+
+
+body{
+    background: black url(../imagens/Background-404-Mobile.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+main{
+    display: flex;
+    
+}
+
+
+
+#conteudo{
+
+    position: absolute;
+    /* 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    
+
+    width: 100%;
+
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+
+
+h1{
+    font-family: var(--fonte01);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+    color: white;
+    font-size: 5em;
+}
+
+
+#titulo p{
+    font-family: var(--fonte00);
+    color: var(--cor01);
+    font-size: 1.3em;
+}
+
+
+
+
+#cont p{
+    font-family: var(--fonte00);
+    color: white;
+}
+
+
+#cont a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 18px 10px 18px 2px;
+    border-radius: 20px;
+    border: 2px solid #230041;
+    background-color: var(--cor02);
+    color: white;
+    margin-top: 5%;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.555);
+
+
+    text-align: center;
+    font-size: 1em;
+    font-family: var(--fonte00);
+    transition: 0.3s;
+}
+
+#texto:hover{
+    cursor: pointer;
+    background-color: #6c00c5;
+    transition: 0.3s;
+}
+
+
+#voltar{
+    font-size: 1.3em;
+}
+}
