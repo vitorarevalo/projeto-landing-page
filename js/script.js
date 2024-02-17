@@ -22,9 +22,11 @@ burguer.addEventListener("click", function mostrarElementos(){
 var lista = document.querySelector(".teste")
 
 function mudarTamanho() {
-    if (window.innerWidth >= 769) {
-        lista.style.display = 'hidden'
-    }   
-}
+      if (window.innerWidth >= 769) {
+        closer.style.cssText = 'display: hidden; position: absolute'
+    }
+
+    }
+
 
 mudarTamanho()

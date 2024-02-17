@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     *{
         margin: 0px;
@@ -30,9 +31,43 @@
     
     }
     
-    menu{
+    menu#itens{
         display: none;
     }
+
+    ul#lista{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .teste{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+    span#closer{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    span.material-icons{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    div.meudeus{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+    
     
     nav{
         display: flex;

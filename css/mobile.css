@@ -19,6 +19,10 @@
         color: white;
     }
 
+    body, html{
+        height: 90%;
+    }
+
     
     #segundo{
         display: none;
@@ -35,6 +39,12 @@
 
     }
 
+    #principal{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 7%;
+    }
     
 
     #fog{
@@ -45,12 +55,30 @@
     
     nav h1{
         font-weight: 300;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
 
+    nav a{
+        color: white;
+        text-decoration: none;
+    }
+
     #primeiro{
         margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    #primeiro:hover{
+        cursor: pointer;
+        transition: 0.5s;
+        color: var(--cor04);
+        #fog{
+            transform: scale(1.1);
+            };
     }
 
     #burguer{
@@ -203,7 +231,8 @@
     
     
     #subtitulo{
-        font-size: 1.8em;
+        font-size: 2em;
+        margin-bottom: 0px;
     }
     
     

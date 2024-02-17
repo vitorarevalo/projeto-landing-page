@@ -2,6 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@media screen and (min-width: 1025px) {
+    menu#itens{
+        display: none;
+    }
+
+    ul#lista{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .teste{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+    span#closer{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    span.material-icons{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    div.meudeus{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+    }
+    
+}
+
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -157,7 +198,6 @@ main{
     display: inline-block;
     width: 100px;
     background-color: var(--cor03);
-    padding: 5px;
     text-align: center;
     border-radius: 7px;
     padding: 10px;
@@ -194,3 +234,4 @@ main a{
 #burguer{
     display: none;
 }
+
