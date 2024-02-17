@@ -28,5 +28,4 @@ function mudarTamanho() {
 
     }
 
-
 mudarTamanho()
