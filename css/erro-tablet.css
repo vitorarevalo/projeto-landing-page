@@ -37,23 +37,18 @@
     
     
     #conteudo{
-    
-        position: absolute;
-        /* 
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
-        margin-right: 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 7px;
+        gap: 12px;
         
-    
-        width: 100%;
-    
-        margin-top: 1%;
+
+        width: 50%;
+        margin-right: 0px;
+        
+        margin-left: 50%;
+        margin-top: 15%;
         text-align: center;
     
     }
@@ -64,14 +59,14 @@
         font-family: var(--fonte01);
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
         color: white;
-        font-size: 5em;
+        font-size: 7em;
     }
     
     
     #titulo p{
         font-family: var(--fonte00);
         color: var(--cor01);
-        font-size: 1.3em;
+        font-size: 1.6em;
     }
     
     
@@ -107,7 +102,7 @@
     
     
         text-align: center;
-        font-size: 1em;
+        font-size: 1.2em;
         font-family: var(--fonte00);
         transition: 0.3s;
     }
