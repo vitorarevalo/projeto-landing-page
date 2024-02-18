@@ -1,4 +1,7 @@
 <h1>Projeto Landing Page</h1>
+
+## ⭐⭐⭐PROJETO EM PAUSA NO MOMENTO⭐⭐⭐ <p> <ul> <li>Projeto Responsivo✔️ </li> <li>Projeto Concluido❌</li> </ul></p>
+
 <p>Aqui falo um pouco sobre este projeto.</p>
 
 ## Propósito
