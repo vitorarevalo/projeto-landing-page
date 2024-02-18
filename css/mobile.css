@@ -12,6 +12,19 @@
     }
 
 
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    a:hover{
+        cursor: pointer;
+    }
+
+    .cursor{
+        display: none;
+    }
+
     body{
         background: url(../imagens/Background-Mobile.jpg) no-repeat center center fixed;
         background-size: cover;
@@ -73,7 +86,7 @@
     }
 
     #primeiro:hover{
-        cursor: none;
+        cursor: pointer;
         transition: 0.5s;
         color: var(--cor04);
         #fog{
@@ -90,7 +103,7 @@
     }
 
     #burguer:hover{
-        cursor: none;
+        cursor: pointer;
         color: #dfdfdf;
         transition: 0.5s;
     }
@@ -107,7 +120,7 @@
 
 
     #closer:hover{
-        cursor: none;
+        cursor: pointer;
         color: #dfdfdf;
         transition: 0.5s;
     }
@@ -163,7 +176,7 @@
 
     
     .opcao:hover{
-        cursor: none;
+        cursor: pointer;
         background-color: rgb(66, 66, 66);
         transition: 0.3s;
     }
@@ -183,7 +196,7 @@
 
 
     #cadastrar:hover{
-        cursor: none;
+        cursor: pointer;
         background-color: var(--cor00);
     }
 
@@ -224,7 +237,7 @@
     }
     
     #exp:hover{
-        cursor: none;
+        cursor: pointer;
         background-color: #e95f72;
         transition: 0.3s;
     }

@@ -67,7 +67,9 @@
     }
 
 
-    
+    .cursor{
+        display: none;
+    }
     
     nav{
         display: flex;
@@ -128,7 +130,7 @@
     }
     
     #primeiro:hover{
-        cursor: none;
+        cursor: pointer;
         transition: 0.5s;
         color: var(--cor04);
         #fog{
@@ -137,7 +139,7 @@
     }
     
     .item:hover{
-        cursor: none;
+        cursor: pointer;
         background-color: var(--cor00);
         /* transform: scale(1.2); */
         transition: 0.5s;
@@ -150,7 +152,7 @@
     
     
     #cadastro:hover{
-        cursor: none;
+        cursor: pointer;
         background-color: var(--cor00);
         transition: 0.5s;
     
@@ -194,7 +196,7 @@
     }
     
     #exp:hover{
-        cursor: none;
+        cursor: pointer;
         background-color: #e95f72;
         transition: 0.3s;
     }

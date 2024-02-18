@@ -12,6 +12,11 @@
     --fonte02: 'RocknRoll', sans-serif;
 }
 
+.cursor{
+    display: none;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -113,7 +118,7 @@ h1{
 }
 
 #texto:hover{
-    cursor: none;
+    cursor: pointer;
     background-color: #6c00c5;
     transition: 0.3s;
 }
