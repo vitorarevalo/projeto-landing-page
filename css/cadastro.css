@@ -23,6 +23,19 @@
 
 }
 
+body{
+    background-color: #170231;
+    font-family: var(--font02);
+    color: white;
+}
+
+
+
+
+body, html{
+    height: 90%;
+}
+
 
 menu{
     display: none;
@@ -62,47 +75,6 @@ menu{
 
 
 
-body{
-    background-color: var(--cor06);
-    font-family: var(--font02);
-    color: white;
-}
-
-
-.cursor{
-    z-index: 1;
-    position: fixed;
-    /* background-color: #f3304a33; */
-    background-color: none;
-    border: 2px solid white;
-    transform: translate(-50%, -50%);
-    padding: 18px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    pointer-events: none;
-    box-shadow: 0 0 20px #8c00ff;
-}
-
-
-.cursor:before{
-    content: '';
-    border-radius: 50%;
-    position: absolute;
-    background-image: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(140,0,255,0.99999999) 66%, rgba(120,14,207,0) 75%);
-    width: 70px;
-    height: 70px;
-    opacity: 0.10;
-    transform: translate(-50%, -50%);
-}
-
-body, html{
-    height: 90%;
-}
-
-
-
-
 nav{
     display: flex;
     margin-top: 7px;
@@ -137,7 +109,7 @@ nav{
 
     #cadastro{
         display: inline-block;
-        background-color: var(--cor01);
+        background-color: #460080;
         padding: 10px 20px;
         border-radius: 7px;
         transition: 0.5s;
@@ -159,38 +131,31 @@ nav{
     }
     
     .item:hover{
-        background-color: var(--cor00);
-        /* transform: scale(1.2); */
+        background-color: #460080;
         transition: 0.5s;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #fog:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    
+    
+    #cadastro:hover{
+        background-color: #6C429F;
+        transition: 0.5s;
+        
     }
 }
 
 
-
-
-
-#fog:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
+main{
+    width: 100px;
+    height: 100px;
+    background-color: white;
 }
-
-
-#cadastro:hover{
-    background-color: var(--cor00);
-    transition: 0.5s;
-    
-}
-
-
-
-menu{
-    display: none;
-}
-
-nav a{
-    color: white;
-    text-decoration: none;
-}
-
-
-
