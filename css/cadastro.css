@@ -23,13 +23,24 @@
 
 }
 
+
+div#bg{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 100%;
+    height: 110px;
+    
+}
+
 body{
-    background-color: #190334;
+    background-color: #4b1d34;
     font-family: var(--font02);
     color: white;
 }
 
-
+nav{
+    position: relative;
+}
 
 
 body, html{
@@ -52,7 +63,7 @@ menu{
     background-color: none;
     border: 2px solid white;
     transform: translate(-50%, -50%);
-    padding: 18px;
+    padding: 10px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -66,8 +77,8 @@ menu{
     border-radius: 50%;
     position: absolute;
     background-image: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(140,0,255,0.99999999) 66%, rgba(120,14,207,0) 75%);
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     opacity: 0.10;
     transform: translate(-50%, -50%);
 }
@@ -76,7 +87,7 @@ menu{
 
 nav{
     display: flex;
-    margin-top: 7px;
+    padding-top: 7px;
     width: 100%;
     justify-content: space-around;
 
@@ -108,7 +119,7 @@ nav{
 
     #cadastro{
         display: inline-block;
-        background-color: #460080;
+        background-color: #97034d;
         padding: 10px 20px;
         border-radius: 7px;
         transition: 0.5s;
@@ -130,7 +141,7 @@ nav{
     }
     
     .item:hover{
-        background-color: #460080;
+        background-color: #97034d;
         transition: 0.5s;
     }
 
@@ -146,7 +157,7 @@ nav{
     
     
     #cadastro:hover{
-        background-color: #6C429F;
+        background-color: #c20564;
         transition: 0.5s;
         
     }
@@ -161,7 +172,7 @@ main{
 
 
 div#imagem{
-    background: url(../imagens/Background-Nebulosa.jpg) no-repeat fixed;
+    background: url(../imagens/galaxy.jpg) no-repeat fixed right;
     background-size: cover; 
     width: 50%;
     height: 100%;
@@ -186,6 +197,7 @@ article{
     height: 500px;
     background-color: white;
     border-radius: 30px 20px 20px 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.329);
 }
 
 
@@ -230,7 +242,21 @@ input.dados{
     width: 70%;
     border-radius: 6px;
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.274);
+    padding: 5px;
+    font-size: 1em;
 }
+
+.dados:focus{
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.527);
+}
+
+.dados::placeholder{
+    font-size: 0.9em;
+}
+
+
+
+
 
 
 #pos-btn{
@@ -246,10 +272,19 @@ input.dados{
     background-color: #D81159;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 13px 30px;
     border-radius: 6px;
     transition: 0.3s;
+    font-size: 1em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.281);
 }
+
+
+#login:hover{
+    background-color: #e22e70;
+    transition: 0.3s;
+}
+
 
 #par{
     display: flex;
@@ -262,14 +297,22 @@ p#msg{
     color: #696969;
 }
 
+#dec{
+    color: #D81159;
+}
+
 #entrar{
     color: #D81159;
     text-decoration: none;
+    transition: 1s;
 }
 
 
-
-
+#entrar:hover{
+    color: #ff005d;
+    text-decoration: underline;
+    transition: 1s;
+}
 
 
 
@@ -292,12 +335,38 @@ input[type="checkbox"] {
     width: 20px;
     height: 20px;
     border: 2px solid #ccc;
+    transition: 0.2s;
+    border-radius: 5px;
 }
 
 input[type="checkbox"]:checked{
     background-color: #D81159;
     color: white;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: center;
+    border: none;
+    transition: 0.3s;
+    animation: animation 0.2s normal;
 }
+
+@keyframes animation {
+    0%{
+        transform: scale(1.0);
+        
+    }
+
+    50%{
+        transform: scale(1.2);
+        
+        
+    }
+
+    100%{
+        transform: scale(1.0);
+        
+    }
+}
+
 
 
 
@@ -311,10 +380,3 @@ input[type="checkbox"]:checked{
 }
 
 
-
-
-
-#login:hover{
-    background-color: #e22e70;
-    transition: 0.3s;
-}

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <!-- <div id="bg"></div> -->
+    <div id="bg"></div>
     <div class="cursor"></div>
     <header>
         <menu id="itens">
@@ -44,15 +44,16 @@
 
     <main>
         <article>
-            <div id="imagem"><img src="imagens/Background-Nebulosa.jpg" alt="Imagem Nebulosa"></div>
+            <div id="imagem"><img src="imagens/galaxy.jpg" alt="Imagem Nebulosa"></div>
             <div id="form">
                 <form action="" method="post">
                     <p id="titulo-form">Cadastrar-se</p>
-                    <input type="email" name="" id="" class="dados" placeholder=" E-mail" required>
-                    <input type="password" name="" id="" class="dados" placeholder=" Senha" required>
+                    
+                    <input type="email" name="" id="" class="dados" placeholder="E-mail" required>
+                    <input type="password" name="" id="" class="dados" placeholder="Senha" required>
                     
                     <div id="pos-aceito">
-                        <p id="aceito"><input type="checkbox" name="" id="checkbox" checked>Aceito receber notícias da Astrosphera</p>
+                        <p id="aceito"><input type="checkbox" name="" id="checkbox" checked><label for="checkbox">Aceito receber notícias da <span id="dec">Astrosphera!</span></label></p>
                     </div>
 
 
@@ -62,7 +63,7 @@
 
 
                     <div id="par">
-                        <p id="msg">Já possui uma conta? <a href="login.html" id="entrar">Entrar.</a></p>
+                        <p id="msg">Já possui uma conta? <a href="login.html" id="entrar" target="_blank">Entrar.</a></p>
                     </div>
                 
                 </form>
