@@ -108,7 +108,7 @@
     }
     
     #texto:hover{
-        cursor: pointer;
+        cursor: none;
         background-color: #6c00c5;
         transition: 0.3s;
     }

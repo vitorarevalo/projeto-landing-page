@@ -73,7 +73,7 @@
     }
 
     #primeiro:hover{
-        cursor: pointer;
+        cursor: none;
         transition: 0.5s;
         color: var(--cor04);
         #fog{
@@ -90,7 +90,7 @@
     }
 
     #burguer:hover{
-        cursor: pointer;
+        cursor: none;
         color: #dfdfdf;
         transition: 0.5s;
     }
@@ -107,7 +107,7 @@
 
 
     #closer:hover{
-        cursor: pointer;
+        cursor: none;
         color: #dfdfdf;
         transition: 0.5s;
     }
@@ -163,7 +163,7 @@
 
     
     .opcao:hover{
-        cursor: pointer;
+        cursor: none;
         background-color: rgb(66, 66, 66);
         transition: 0.3s;
     }
@@ -183,7 +183,7 @@
 
 
     #cadastrar:hover{
-        cursor: pointer;
+        cursor: none;
         background-color: var(--cor00);
     }
 
@@ -224,7 +224,7 @@
     }
     
     #exp:hover{
-        cursor: pointer;
+        cursor: none;
         background-color: #e95f72;
         transition: 0.3s;
     }
