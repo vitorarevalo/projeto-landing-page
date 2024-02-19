@@ -76,13 +76,12 @@ menu{
     content: '';
     border-radius: 50%;
     position: absolute;
-    background-image: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(140,0,255,0.99999999) 66%, rgba(120,14,207,0) 75%);
+    background-image: radial-gradient(circle, rgba(216,17,89,1) 0%, rgba(216,17,89,1) 39%, rgba(216,17,89,0.26514355742296913) 75%);;
     width: 50px;
     height: 50px;
     opacity: 0.10;
     transform: translate(-50%, -50%);
 }
-
 
 
 nav{

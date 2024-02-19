@@ -44,7 +44,6 @@ body{
     background-color: none;
     border: 2px solid white;
     transform: translate(-50%, -50%);
-    padding: 10px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -62,10 +61,10 @@ body{
     border-radius: 50%;
     position: absolute;
     background-image: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(140,0,255,0.99999999) 66%, rgba(120,14,207,0) 75%);
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     opacity: 0.10;
-    transform: translate(-37%, -37%);
+    transform: translate(-31%, -31%);
     cursor: none;
 }
 
