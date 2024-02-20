@@ -339,7 +339,7 @@ input[type="checkbox"] {
     height: 25px;
     border: 1px solid #b8b8b8;
     transition: 0.2s;
-    border-radius: 3px;
+    border-radius: 6px;
     position: absolute;
 }
 
@@ -355,11 +355,20 @@ input[type="checkbox"]:checked{
     position: relative;
     color: white;
     margin-top: 4px;
-    margin-left: 1px;
-    animation: testando 0.3s alternate;
+    margin-left: 0.5px;
+    transition: 0.3s;
+    animation: testando 0.3s normal;
 }
 
+#yas{
+    transition: 0.3s;
+    animation: testando 0.3s normal; 
+}
 
+.anima{
+    animation: animation 0.3s normal;
+    transition: 0.3s;
+}
 
 
 @keyframes testando {
@@ -399,7 +408,9 @@ input[type="checkbox"]:checked{
     }
 }
 
-
+#text{
+    margin-left: 3px;
+}
 
 
 
