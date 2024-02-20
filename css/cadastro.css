@@ -327,47 +327,75 @@ p#msg{
 
 
 
+
+
+
+
 input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #ccc;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #b8b8b8;
     transition: 0.2s;
-    border-radius: 5px;
+    border-radius: 3px;
+    position: absolute;
 }
 
-
-#checkbox{
-    accent-color: #D81159;
-}
 
 input[type="checkbox"]:checked{
     background-color: #D81159;
-    color: white;
-    /* background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
-    background-position: center; */
-    border: none;
     transition: 0.3s;
-    animation: animation 0.2s normal;
+    animation: animation 0.3s normal;
+} 
+
+
+.material-icons{
+    position: relative;
+    color: white;
+    margin-top: 4px;
+    margin-left: 1px;
+    animation: testando 0.3s alternate;
 }
 
-@keyframes animation {
+
+
+
+@keyframes testando {
     0%{
-        transform: scale(1.0);
-        
+        /* transform: scale(1.0); */
+        margin-top: 4px;
     }
 
     50%{
-        transform: scale(1.2);
-        
+        /* transform: scale(1.2); */
+        margin-top: 0px;
         
     }
 
     100%{
-        transform: scale(1.0);
+        /* transform: scale(1.0); */
+        margin-top: 4px;
+    }
+}
+
+
+@keyframes animation {
+    0%{
+        /* transform: scale(1.0); */
+        margin-bottom: 0;
+    }
+
+    50%{
+        /* transform: scale(1.2); */
+        margin-bottom: 3px;
         
+    }
+
+    100%{
+        /* transform: scale(1.0); */
+        margin-bottom: 0px;
     }
 }
 
