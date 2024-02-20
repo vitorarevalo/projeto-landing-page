@@ -8,7 +8,9 @@
 <p>Esse foi meu primeiro projeto responsivo sem a ajuda de algum canal de curso, eu optei por fazer um site que simularia uma empresa de aprendizado relacionada ao Universo.</p>
 
 ## Link do Site
-<p>Caso queira acessá-lo, clique no link: <a href="https://vitorarevalo.github.io/projeto-landing-page/">Astrosphera.</a></p>
+<p>Caso queira acessá-lo, clique no link: <a href="https://vitorarevalo.github.io/projeto-landing-page/" target="_blank">Astrosphera.</a></p>
 
-##
+## Duração do Projeto 
+<p>Fev/2024 - </p>
+
 <p>Obrigado por ler até aqui! 😊❤️🖥️</p>
