@@ -247,7 +247,7 @@
     }
     article{
         display: flex;
-        margin-top: 15%;
+        margin-top: 13%;
         width: 70%;
         height: 450px;
         background-color: white;
@@ -337,6 +337,7 @@
     
     
     #login:hover{
+        cursor: pointer;
         background-color: #e22e70;
         transition: 0.3s;
     }
@@ -389,6 +390,7 @@
     
     
     input[type="checkbox"] {
+        
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -409,6 +411,7 @@
     
     
     .material-icons{
+        cursor: pointer;
         position: relative;
         color: white;
         margin-top: 4px;
@@ -466,6 +469,7 @@
     }
     
     #text{
+        font-size: 1em;
         margin-left: 3px;
     }
     

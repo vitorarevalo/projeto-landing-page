@@ -184,7 +184,7 @@
   }
   main article {
     display: flex;
-    margin-top: 15%;
+    margin-top: 13%;
     width: 70%;
     height: 450px;
     background-color: white;
@@ -251,6 +251,7 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.281);
   }
   main #login:hover {
+    cursor: pointer;
     background-color: #e22e70;
     transition: 0.3s;
   }
@@ -298,6 +299,7 @@
     animation: anima 0.3s normal;
   }
   main .material-icons {
+    cursor: pointer;
     position: relative;
     color: white;
     margin-top: 4px;
@@ -342,6 +344,7 @@
     }
   }
   main #text {
+    font-size: 1em;
     margin-left: 3px;
   }
   main #aceito {
