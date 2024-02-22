@@ -67,7 +67,7 @@
     text-decoration: none;
   }
   nav #primeiro {
-    margin-right: 10px;
+    margin-right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +263,7 @@
     }
   }
   main #text {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-left: 3px;
   }
   main #aceito {
