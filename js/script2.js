@@ -40,10 +40,8 @@ burguer.addEventListener("click", function mostrarElementos(){
 
 
 function mudarTamanho() {
-      if (window.innerWidth >= 769) {
-        closer.style.cssText = 'visibility: hidden; position: absolute'
-        burguer.style.cssText = 'visibility: hidden; position: absolute'
-        menu.style.cssText = 'visibility: hidden; position: absolute'
+      if (window.innerWidth > 769) {
+        burguer.style.display = "none"
         
     }
 
