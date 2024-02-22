@@ -1,0 +1,84 @@
+#burguer {
+  display: block;
+  margin-left: 10px;
+  font-size: 3em;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#burguer:hover {
+  cursor: pointer;
+  color: #dfdfdf;
+  transition: 0.5s;
+}
+
+menu {
+  position: absolute;
+  display: none;
+  transition: 0.5s;
+}
+menu #closer {
+  z-index: 100;
+  display: none;
+  margin-left: 10px;
+  font-size: 3em;
+  align-items: center;
+  transition: 0.5s;
+  width: 50px;
+  height: 50px;
+}
+menu #closer:hover {
+  cursor: pointer;
+  color: #dfdfdf;
+  transition: 0.5s;
+}
+menu #home {
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  color: white;
+}
+menu #cur {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  color: white;
+}
+menu #ent {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  color: white;
+}
+menu #cadastrar {
+  background-color: var(--cor01);
+  border-bottom: none;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+}
+menu a {
+  color: white;
+  text-decoration: none;
+}
+menu ul {
+  list-style-type: none;
+}
+menu ul li {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border-bottom: 2px solid gray;
+  transition: 0.3s;
+}
+menu .opcao:hover {
+  cursor: pointer;
+  background-color: rgb(66, 66, 66);
+  transition: 0.3s;
+}
+menu #cadastrar:hover {
+  cursor: pointer;
+  background-color: var(--cor00);
+}/*# sourceMappingURL=cadastro-mobile2.css.map */
