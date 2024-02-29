@@ -111,7 +111,7 @@ nav{
     display: flex;
     margin-top: 7px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
