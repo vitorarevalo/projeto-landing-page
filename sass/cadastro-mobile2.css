@@ -1,3 +1,5 @@
+/* @media screen and (min-width: 0px) and (max-width: 768px) {
+
 #burguer {
   display: block;
   margin-left: 10px;
@@ -81,4 +83,6 @@ menu .opcao:hover {
 menu #cadastrar:hover {
   cursor: pointer;
   background-color: var(--cor00);
+
+} */
 }/*# sourceMappingURL=cadastro-mobile2.css.map */

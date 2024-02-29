@@ -31,9 +31,7 @@
     justify-content: center;
     align-items: center;
   }
-  menu {
-    display: none;
-  }
+  
   main {
     display: flex;
     justify-content: center;
@@ -220,6 +218,15 @@
     color: #696969;
   }
 }
+
+
+
+
+
+
+
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -234,6 +241,11 @@ body {
 
 body, html {
   height: 90%;
+}
+
+
+menu {
+  display: none;
 }
 
 #burguer {

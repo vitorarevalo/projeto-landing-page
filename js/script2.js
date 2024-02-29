@@ -4,7 +4,7 @@ var pai = burguer.parentNode;
 
 var closer = document.querySelector("#closer")
 var body = document.querySelector("body")
-
+let lista = document.querySelector("#lista")
 
 
 
@@ -41,8 +41,11 @@ burguer.addEventListener("click", function mostrarElementos(){
 
 function mudarTamanho() {
       if (window.innerWidth > 769) {
-        burguer.style.display = "none"
-        
+        burguer.style.display = "none";
+        lista.style.display = "none";
+    } else{
+        burguer.style.display = "block"
+        lista.style.display = "block"
     }
 
     }
