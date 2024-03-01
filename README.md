@@ -11,6 +11,6 @@
 <p>Caso queira acessá-lo, clique no link: <a href="https://vitorarevalo.github.io/projeto-landing-page/" target="_blank">Astrosphera.</a></p>
 
 ## Duração do Projeto 
-<p>Fev/2024</p>
+<p>12/02/2024 - 01/03/2024</p>
 
 <p>Obrigado por ler até aqui! 😊❤️🖥️</p>
