@@ -6,6 +6,7 @@
 
 <p>Imagem do Projeto: </p>
 <img src="https://github.com/vitorarevalo/projeto-landing-page/blob/main/Astrosphera.png?raw=true" width="700px">
+
 ## Propósito
 <p>Esse foi meu primeiro projeto responsivo sem a ajuda de algum canal de curso, eu optei por fazer uma landing page que simularia uma empresa de aprendizado relacionada ao Universo, optei por resumi-la apenas a esta landing page pois é meu primeiro projeto.</p>
 
